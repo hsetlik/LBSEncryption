@@ -33,5 +33,6 @@ public:
     void encryptFile(std::string source, std::string dest) override;
 private:
     std::string keyA, keyB;
+    int keyIdx;
 
 };
